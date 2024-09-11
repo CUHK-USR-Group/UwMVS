@@ -6,6 +6,7 @@ author_profile: false
 redirect_from:
     /about/
     /about.html
+layout: single
 ---
 
 <h1 style="text-align: center; font-size: 36px; font-family: 'system-ui';">End-to-End Underwater Multi-View Stereo for Dense Scene Reconstruction</h1>
