@@ -11,9 +11,9 @@ title: "End-to-End Underwater Multi-View Stereo for Dense Scene Reconstruction"
 title_separator: "-"
 name: &name "End-to-End Underwater Multi-View Stereo"
 description: &description "End-to-End Underwater Multi-View Stereo for Dense Scene Reconstruction"
-url: https://cuhk-usr-group.github.io/UW-MVS # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: https://cuhk-usr-group.github.io/UwMVS # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
-repository: "CUHK-USR-Group/UW-MVS"
+repository: "CUHK-USR-Group/UwMVS"
 teaser: # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs: false # true, false (default)
 words_per_minute: 160
@@ -78,15 +78,15 @@ analytics:
 
 # Site Author
 author:
-  name: "UW-MVS"
+  name: "LCM-MVSNet"
   avatar: "profile.png"
-  bio: "End-to-End Underwater Multi-View Stereo for Dense Scene Reconstruction"
+  bio: "Your biography for the left-hand sidebar"
   location: "Hong Kong"
   employer:
-  pubmed:
-  googlescholar:
+  pubmed: "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar: "http://yourfullgooglescholarurl.com"
   email:
-  researchgate:
+  researchgate: # example: "https://www.researchgate.net/profile/yourprofile"
   uri:
   bitbucket:
   codepen:
@@ -94,20 +94,20 @@ author:
   flickr:
   facebook:
   foursquare:
-  github: "CUHK-USR-Group"
+  github: "academicpages"
   google_plus:
   keybase:
   instagram:
-  impactstory:
+  impactstory: #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm:
   linkedin:
-  orcid:
+  orcid: "http://orcid.org/yourorcidurl"
   pinterest:
   soundcloud:
-  stackoverflow:
+  stackoverflow: # http://stackoverflow.com/users/123456/username
   steam:
   tumblr:
-  twitter:
+  twitter: "replacethistwitterhandle"
   vine:
   weibo:
   xing:
@@ -265,12 +265,32 @@ whitelist:
   - jemoji
 
 # Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
 
 # HTML Compression
 # - http://jch.penibelst.de/
