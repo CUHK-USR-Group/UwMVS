@@ -59,7 +59,7 @@ Recent advancements in learning-based multi-view stereo (MVS) have demonstrated 
 </div>
 
 <div style="text-align: center; margin: 0 auto;">
-    <iframe width="100%" height="600" src="https://www.youtube.com/embed/BP-HDq-7O5k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe width="100%" height="500" src="https://www.youtube.com/embed/BP-HDq-7O5k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
