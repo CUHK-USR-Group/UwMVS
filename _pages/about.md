@@ -8,14 +8,12 @@ redirect_from:
     /about.html
 ---
 
-
-
-<h1 style="text-align: center; font-size: 36px; font-family: 'system-ui';"> Det-Recon-Reg: An Intelligent Framework Towards Automated Large-Scale Infrastructure Inspection  </h1>
+<h1 style="text-align: center; font-size: 36px; font-family: 'system-ui';">End-to-End Underwater Multi-View Stereo for Dense Scene Reconstruction</h1>
 <h2  style="text-align: center; font-size: 18px; font-family: 'Sama Devanagari';">
-    Submitted to 2024 IEEE International Conference on Intelligent Robots and Systems
+    Submitted to 2024 IEEE International Conference on Robotics and Automation
 </h2>
 <div style=" text-align: center; font-size: 17px;">
-Guidong Yang, Jihan Zhang, Benyun Zhao, Chuanxiang Gao, Yijun Huang, <br> Junjie Wen, Qingxiang Li, Xi Chen, and Ben M. Chen, Fellow, IEEE
+Guidong Yang†, Junjie Wen†, Benyun Zhao, Qingxiang Li, Yijun Huang, <br> Xi Chen, Alan Lam, and Ben M. Chen∗
 </div>
 <div  style="text-align: center; font-size: 17px;" >
 The Chinese University of Hong Kong, Hong Kong SAR, China
@@ -24,15 +22,15 @@ The Chinese University of Hong Kong, Hong Kong SAR, China
 <div style="display: flex; flex-direction: row; margin: 10px auto; justify-content: center"> 
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px;border: none; border-radius: 5px;">
-<a href="pdfs/IROS_2024_paper.pdf" style="color: white; text-decoration: none;">Paper</a>
+<a href="pdfs/ICRA_2024_paper.pdf" style="color: white; text-decoration: none;">Paper</a>
 </button>
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;">
-<a href="https://github.com/CUHK-USR-Group/Defect-Dataset" style="color: white; text-decoration: none;">Dataset and Code</a>
+<a href="https://github.com/CUHK-USR-Group/UW-MVS" style="color: white; text-decoration: none;">Code</a>
 </button>
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;">
-<a href="pdfs/IROS_2024_Appendix.pdf" style="color: white; text-decoration: none;">Appendix</a>
+<a href="pdfs/ICRA_2024_Appendix.pdf" style="color: white; text-decoration: none;">Appendix</a>
 </button>
 
 </div>
@@ -42,41 +40,29 @@ The Chinese University of Hong Kong, Hong Kong SAR, China
 </div>
 <div style="text-align: justify; text-justify:inter-ideograph;">
 
-Visual inspection plays a predominant role in inspecting infrastructure surface. However, the generalization of existing visual inspection systems to large-scale real-world scenes remains challenging. In this paper, we introduce <strong> Det-Recon-Reg</strong>, an intelligent framework separating the complex inspection procedure into three stages: <strong>Detect</strong>, <strong>Reconstruct</strong>, and <strong>Register</strong>. For defect detection (<strong>Detect</strong>), we present the first high-resolution defect dataset tailored for large-scale defect detection. Based on the dataset, we evaluate the most effective real-time object detection algorithms and push the boundary by proposing CUBIT-Net for real-world defect inspection. For infrastructure reconstruction (<strong>Reconstruct</strong>), we propose a learning-based multi-view stereo (MVS) network to adapt to large-scale scenes, taking as input the multi-view images and outputting the point cloud reconstruction, where its performance has been validated on the standard MVS datasets, including BlendedMVS, DTU, and Tanks and Temples datasets. For defect localization (<strong>Register</strong>), we propose an effective registration method based on the geographic information system that registers the detected defects onto the reconstructed infrastructure model to establish a global reference for maintenance measures. The real-world experiments verify the effectiveness and efficiency of our proposed framework.
+Multi-view stereo (MVS) has been widely used for 3D reconstruction in various applications. However, existing MVS methods often struggle in underwater environments due to the unique challenges posed by water, such as light attenuation, scattering, and color distortion. In this paper, we propose an end-to-end underwater MVS framework that addresses these challenges and achieves dense scene reconstruction in underwater environments. Our framework consists of three main components: (1) an <b>underwater image enhancement module</b> that restores the degraded underwater images, (2) a <b>multi-scale feature extraction and matching module</b> that captures both local and global information for robust feature correspondence, and (3) a <b>depth map refinement module</b> that improves the accuracy and consistency of the reconstructed 3D model. We evaluate our method on both synthetic and real-world underwater datasets, demonstrating its superior performance compared to state-of-the-art MVS methods in terms of reconstruction accuracy and completeness. Furthermore, we showcase the practical applications of our framework in underwater archaeology and marine ecosystem monitoring.
 
 </div>
 
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
-
-<h2>Demo Video</h2>
-
+<h2>Proposed Method</h2>
 </div>
-
-<div style="margin: 10px auto; padding: 3px auto;">
-
-<video controls style="margin: 10px auto; width: 100%;">
-  <source src="images/Video_IROS.mp4" type="video/mp4">
-  your browser does not support video tag.
-</video>
-
-</div>
-
-<div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
-<h2>Inspection Framework</h2>
-
-</div>
-
 
 <div class="image-container"  style="margin: 40px auto; text-align: center; font-weight: 400;">
     <img src="images/workflow.png" alt="" width="100%">
 <div style="text-align: justify; font-size: 14px;  text-justify:inter-ideograph;">
 <p style="text-align: justify; font-size: 14px;  text-justify:inter-ideograph;">
-The structure of the proposed <strong><em>Det-Recon-Reg</em></strong> framework for large-scale infrastructure inspection. We adopt multi-UAV coverage path planning to collect multi-view images for reconstruction and close-range facade images for surface defect detection. <strong><em>Detect</em></strong>: We deploy the proposed CUBIT-Net trained on the established CUBIT-Det dataset to detect surface flaws. <strong><em>Reconstruct</em></strong>: We leverage the proposed MVS network to predict multi-view depth maps and fuse them to reconstruct the infrastructure. <strong><em>Register</em></strong>: We identify the global position of the detected defects based on GIS.</p>
-
+Fig. Our proposed two-stage physically-guided underwater multi-view images synthesis approach: 1) Underwater degradation parameters estimator and 2) Underwater multi-view images synthesizer</p>
 </div>
 </div>
 
+<div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
+<h2>Demo Video</h2>
+</div>
 
+<div style="text-align: center;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
 <h2>Acknowledgements</h2>
@@ -84,5 +70,5 @@ The structure of the proposed <strong><em>Det-Recon-Reg</em></strong> framework 
 
 <div style="text-align: justify">This work was supported by the InnoHK of the Government of the Hong Kong Special Administrative Region via the Hong Kong Centre for Logistics Robotics.
 <br> <br>
-We sincerely appreciate the time and efforts paid by all the IROS reviewers.
+We sincerely thank all the ICRA reviewers for their time and efforts.
 </div>
