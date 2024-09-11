@@ -44,18 +44,12 @@ Multi-view stereo (MVS) has been widely used for 3D reconstruction in various ap
 
 </div>
 
-
-<div style="text-align: center;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/BP-HDq-7O5k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
-
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
 <h2>Demo Video</h2>
 </div>
 
-
 <div style="text-align: center;">
-    <iframe width="560" height="315" src="https://youtu.be/BP-HDq-7O5k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BP-HDq-7O5k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
