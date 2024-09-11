@@ -23,7 +23,7 @@ layout: single
     Submitted to 2024 IEEE International Conference on Robotics and Automation
 </h2>
 <div style=" text-align: center; font-size: 17px;">
-Guidong Yang<sup>†</sup>, Junjie Wen<sup>†</sup>, Benyun Zhao, Qingxiang Li, Yijun Huang, <br> Xi Chen, Alan Lam, and Ben M. Chen<sup>*</sup>, IEEE Fellow
+Guidong Yang<sup>†</sup>, Junjie Wen<sup>†</sup>, Benyun Zhao, Qingxiang Li, Yijun Huang, <br> Xi Chen, Alan Lam, and Ben M. Chen<sup>*</sup>, <i>Fellow, IEEE</i>
 </div>
 <div  style="text-align: center; font-size: 17px;" >
 The Chinese University of Hong Kong, Hong Kong SAR, China
@@ -58,8 +58,8 @@ Recent advancements in learning-based multi-view stereo (MVS) have demonstrated 
 <h2>Demo Video</h2>
 </div>
 
-<div style="text-align: center;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/BP-HDq-7O5k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div style="text-align: center; max-width: 560px; margin: 0 auto;">
+    <iframe width="100%" src="https://www.youtube.com/embed/BP-HDq-7O5k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
