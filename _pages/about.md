@@ -22,7 +22,7 @@ The Chinese University of Hong Kong, Hong Kong SAR, China
 <div style="display: flex; flex-direction: row; margin: 10px auto; justify-content: center"> 
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px;border: none; border-radius: 5px;">
-<a href="pdfs/ICRA_2024_paper.pdf" style="color: white; text-decoration: none;">Paper</a>
+<a href="../files/End-to-End Underwater Multi-View Stereo for Dense Scene Reconstruction.pdf" style="color: white; text-decoration: none;">Paper</a>
 </button>
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;">
@@ -30,7 +30,7 @@ The Chinese University of Hong Kong, Hong Kong SAR, China
 </button>
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;">
-<a href="pdfs/ICRA_2024_Appendix.pdf" style="color: white; text-decoration: none;">Appendix</a>
+<a href="../files/Appendix_End-to-End Underwater Multi-View Stereo for Dense Scene Reconstruction.pdf" style="color: white; text-decoration: none;">Appendix</a>
 </button>
 
 </div>
@@ -52,7 +52,7 @@ Multi-view stereo (MVS) has been widely used for 3D reconstruction in various ap
     <img src="images/workflow.png" alt="" width="100%">
 <div style="text-align: justify; font-size: 14px;  text-justify:inter-ideograph;">
 <p style="text-align: justify; font-size: 14px;  text-justify:inter-ideograph;">
-Fig. Our proposed two-stage physically-guided underwater multi-view images synthesis approach: 1) Underwater degradation parameters estimator and 2) Underwater multi-view images synthesizer</p>
+Overview of our proposed end-to-end underwater MVS framework. The framework consists of three main components: (1) <b>Underwater Image Enhancement Module</b>, which restores the degraded underwater images; (2) <b>Multi-scale Feature Extraction and Matching Module</b>, which captures both local and global information for robust feature correspondence; and (3) <b>Depth Map Refinement Module</b>, which improves the accuracy and consistency of the reconstructed 3D model.</p>
 </div>
 </div>
 
