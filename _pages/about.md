@@ -44,17 +44,7 @@ Multi-view stereo (MVS) has been widely used for 3D reconstruction in various ap
 
 </div>
 
-<div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
-<h2>Proposed Method</h2>
-</div>
 
-<div class="image-container"  style="margin: 40px auto; text-align: center; font-weight: 400;">
-    <img src="images/workflow.png" alt="" width="100%">
-<div style="text-align: justify; font-size: 14px;  text-justify:inter-ideograph;">
-<p style="text-align: justify; font-size: 14px;  text-justify:inter-ideograph;">
-Overview of our proposed end-to-end underwater MVS framework. The framework consists of three main components: (1) <b>Underwater Image Enhancement Module</b>, which restores the degraded underwater images; (2) <b>Multi-scale Feature Extraction and Matching Module</b>, which captures both local and global information for robust feature correspondence; and (3) <b>Depth Map Refinement Module</b>, which improves the accuracy and consistency of the reconstructed 3D model.</p>
-</div>
-</div>
 
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
 <h2>Demo Video</h2>
