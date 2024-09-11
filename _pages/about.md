@@ -26,7 +26,7 @@ The Chinese University of Hong Kong, Hong Kong SAR, China
 </button>
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;">
-<a href="https://github.com/CUHK-USR-Group/UW-MVS" style="color: white; text-decoration: none;">Code</a>
+<a href="https://github.com/YANG-SOBER/UwMVS" style="color: white; text-decoration: none;">Code</a>
 </button>
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;">
