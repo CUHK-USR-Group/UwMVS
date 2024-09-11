@@ -9,6 +9,15 @@ redirect_from:
 layout: single
 ---
 
+<style>
+  .masthead {
+    display: none !important;
+  }
+  .page__hero--overlay {
+    margin-top: 0 !important;
+  }
+</style>
+
 <h1 style="text-align: center; font-size: 36px; font-family: 'system-ui';">End-to-End Underwater Multi-View Stereo for Dense Scene Reconstruction</h1>
 <h2  style="text-align: center; font-size: 18px; font-family: 'Sama Devanagari';">
     Submitted to 2024 IEEE International Conference on Robotics and Automation
