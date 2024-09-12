@@ -36,7 +36,7 @@ The Chinese University of Hong Kong, Hong Kong SAR, China
 </button>
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;">
-<a href="https://github.com/YANG-SOBER/UwMVS" style="color: white; text-decoration: none;">Code</a>
+<a href="https://github.com/YANG-SOBER/UwMVS" style="color: white; text-decoration: none;">Dataset and Code</a>
 </button>
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;">
@@ -68,5 +68,5 @@ Recent advancements in learning-based multi-view stereo (MVS) have demonstrated 
 
 <div style="text-align: justify">This work was supported by the InnoHK of the Government of the Hong Kong Special Administrative Region via the Hong Kong Centre for Logistics Robotics.
 <br> <br>
-We sincerely thank all the ICRA reviewers for their time and efforts.
+We would like to express our gratitude to all the ICRA reviewers for their time, efforts, and constructive comments.
 </div>
