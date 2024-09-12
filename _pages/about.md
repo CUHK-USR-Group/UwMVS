@@ -20,7 +20,7 @@ layout: single
 
 <h1 style="text-align: center; font-size: 36px; font-family: 'system-ui';">End-to-End Underwater Multi-View Stereo for Dense Scene Reconstruction</h1>
 <h2  style="text-align: center; font-size: 18px; font-family: 'Sama Devanagari';">
-    Submitted to 2024 IEEE International Conference on Robotics and Automation
+    Submitted to 2025 IEEE International Conference on Robotics and Automation
 </h2>
 <div style=" text-align: center; font-size: 17px;">
 Guidong Yang<sup>†</sup>, Junjie Wen<sup>†</sup>, Benyun Zhao, Qingxiang Li, Yijun Huang, <br> Xi Chen, Alan Lam, and Ben M. Chen<sup>*</sup>, <i>Fellow, IEEE</i>
