@@ -20,12 +20,20 @@ layout: single
 
 
 
+<h1 style="text-align: center; font-size: 36px; font-family: 'system-ui';">End-to-End Underwater Multi-View Stereo for Dense Scene Reconstruction</h1>
+<h2  style="text-align: center; font-size: 18px; font-family: 'Sama Devanagari';">
+    Submitted to 2025 IEEE International Conference on Robotics and Automation
+</h2>
+<div style=" text-align: center; font-size: 17px;">
+Guidong Yang<sup>†</sup>, Junjie Wen<sup>†</sup>, Benyun Zhao, Qingxiang Li, Yijun Huang, <br> Xi Chen, Alan Lam, and Ben M. Chen<sup>*</sup>, <i>Fellow, IEEE</i>
 </div>
+<div  style="text-align: center; font-size: 17px;" >
+The Chinese University of Hong Kong, Hong Kong SAR, China
+
+</div>
+
 <div style="display: flex; flex-direction: row; margin: 10px auto; justify-content: center"> 
 
-<button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px;border: none; border-radius: 5px;">
-<a href="files/End-to-End Underwater Multi-View Stereo for Dense Scene Reconstruction.pdf" style="color: white; text-decoration: none;">Paper</a>
-</button>
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;">
 <a href="https://github.com/YANG-SOBER/UwMVS" style="color: white; text-decoration: none;">Dataset and Code</a>
@@ -37,13 +45,6 @@ layout: single
 
 </div>
 
-<div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
-<h2>Abstract</h2>
-</div>
-<div style="text-align: justify; text-justify:inter-ideograph;">
-
-
-</div>
 
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
 <h2>Demo Video</h2>
