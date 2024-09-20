@@ -18,15 +18,7 @@ layout: single
   }
 </style>
 
-<h1 style="text-align: center; font-size: 36px; font-family: 'system-ui';">End-to-End Underwater Multi-View Stereo for Dense Scene Reconstruction</h1>
-<h2  style="text-align: center; font-size: 18px; font-family: 'Sama Devanagari';">
-    Submitted to 2025 IEEE International Conference on Robotics and Automation
-</h2>
-<div style=" text-align: center; font-size: 17px;">
-Guidong Yang<sup>†</sup>, Junjie Wen<sup>†</sup>, Benyun Zhao, Qingxiang Li, Yijun Huang, <br> Xi Chen, Alan Lam, and Ben M. Chen<sup>*</sup>, <i>Fellow, IEEE</i>
-</div>
-<div  style="text-align: center; font-size: 17px;" >
-The Chinese University of Hong Kong, Hong Kong SAR, China
+
 
 </div>
 <div style="display: flex; flex-direction: row; margin: 10px auto; justify-content: center"> 
@@ -50,7 +42,6 @@ The Chinese University of Hong Kong, Hong Kong SAR, China
 </div>
 <div style="text-align: justify; text-justify:inter-ideograph;">
 
-Recent advancements in learning-based multi-view stereo (MVS) have demonstrated significant improvements over traditional counterpart, primarily due to the extensive availability of multi-view training images with ground-truth metric depths in the terrestrial in-air domain. However, underwater multi-view stereo (UwMVS) faces substantial challenges arising from the domain gap between in-air and underwater environments, leading to degraded performance when applying in-air MVS models to underwater scenarios. Furthermore, the progress of learning-based UwMVS methods has been hindered by the scarcity of underwater multi-view images with ground-truth depth maps and point clouds. In this paper, we address these challenges by introducing a physically-guided approach for synthesizing underwater multi-view images and present the first large-scale UwMVS dataset for end-to-end training and evaluation of learning-based UwMVS methods. Furthermore, we propose a novel UwMVS network that enhances geometric cue encoding to achieve more accurate and complete point cloud reconstruction. Extensive experiments on our dataset and real-world underwater scenes demonstrate that our dataset enables the trained models for underwater dense reconstruction and that our method achieves state-of-the-art performance in underwater reconstruction.
 
 </div>
 
