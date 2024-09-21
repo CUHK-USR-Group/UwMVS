@@ -40,7 +40,7 @@ The Chinese University of Hong Kong, Hong Kong SAR, China
 </button>
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;">
-<a href="files/Appendix_End-to-End Underwater Multi-View Stereo for Dense Scene Reconstruction.pdf" style="color: white; text-decoration: none;">Appendix</a>
+<a href="https://drive.google.com/file/d/1PmyY2Q4IqfwJe6e0VqSbXOzWym4WclSz/view?usp=sharing" style="color: white; text-decoration: none;">Appendix</a>
 </button>
 
 </div>
